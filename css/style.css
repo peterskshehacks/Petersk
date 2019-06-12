@@ -1,0 +1,97 @@
+.navbar-inverse{
+    background-color: white;
+    padding:0% 5% 5% 25%;
+    border-color: white;
+}
+#myNavbar{
+    background-color: lightblue;
+    border-radius: 25px;
+}
+#active{ 
+    background-color: red;
+}
+
+/*a:hover{color:#fff;background-color:#080808}*/
+
+.jumbotron {
+    text-align: center;
+}
+
+.container{
+    padding: 20px
+}
+
+.btn-success{
+    padding: 30px 70px;
+}
+
+.navbar{
+    min-height: 170px;
+    min-width: 100px;
+}
+
+.navbar-nav{
+    float: left;
+    font-size: 15pt;
+    padding: 10px;
+    list-style-type: none;
+    
+}
+
+.navbar-nav li a{
+    color: red;
+    list-style-type: none;
+      
+}
+
+button{
+  border-radius: 15px;
+  padding: 10px; 
+  width: 100px;
+  height: 50px; 
+}
+button:hover{
+    color:#fff;background-color:#ac00e6;
+}
+
+#features{
+    border-color:darkred;
+}
+
+.panel{
+    border-color: red;
+    background-color:antiquewhite;
+    border-width: medium;
+}
+
+
+/*form ends*/
+footer{
+    float: center;
+    width: 100%;
+    background-color: #34495e;
+    color:white;
+    padding: 10px;
+    
+}
+
+
+.socials{
+    text-align: center;
+    padding: 20px 0;
+}
+
+i{
+    color: white;
+    margin: 2px 10px;
+    text-align: center;
+    font-size: 300%;
+}
+
+/*--Forms Contact Us --*/
+
+/*form ends*/
+
+
+
+

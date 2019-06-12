@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    
+<Head>
+<!--    Links this page to boostrap library named bootsraped.min.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+<!--    Links this page to boostrap library named bootsraped.min.css-->
+    <script src="script.js" async></script>>
+    
+<!--    Links to external .css file for styling -->
+    <link rel="stylesheet" href="css/style.css">
+<!--    Links to external .css file for styling-->
+    
+<!--    display's the site logo in the browser-->
+    <link rel="shortcut icon" type="image/png" href="img/Vhospital%20logo.png"/>
+<!--    display's the site logo in the browser ends-->
+    
+    <title>Vhospital</title>
+</Head>
+    <header><nav class="navbar navbar-inverse"> 
+<!--        Note that navbar and navbar-inverse is different. navbar class calls from the library while navbar-inverse calls from the external .css file linked to this page.-->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button><a class="navbar-brand" "logo" href="#"><img src="img/Vhospital%20logo2.png" height="150px" width="600"alt="Vhospital's logo"></a>
+        </div>
+    </header>
+          
+
+<body>
+    
+<!--    Navigation bar starts-->
+    
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+        
+      <ul class="nav navbar-nav">
+        <button><li class="active"><a href="index.html">Home</a></li></button>
+        <button><li><a href="aboutus.html">About</a></li></button>
+        <button><li><a href="book.html">Book</a></li></button> 
+        <button><li><a href="blog.html">Blog</a></li></button>
+        <button><li><a href="contact.html">Contact</a></li></button>
+        <button><li><a href="faqs.html">FAQs</a></li></button>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+<!--    Navigation bar ends-->
+    
+              
+        <div class="container">
+      <section>
+        <div class="page-header" id="faq">
+          <h2>BOOK<small> <hr>Book an appointment with a doctor at any hospital of your choice.</small></h2>
+        </div><!-- End Page Header -->
+
+
+        <!-- Contact -->
+
+  <div class="container">
+    <section>
+          
+          <div class="col-lg-8">
+            <form action="" class="form-horizontal">
+              <div class="form-group">
+                <label for="user-name" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-name" placeholder="Enter you name">
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <label for="user-email" class="col-lg-2 control-label">Address</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="user-email" placeholder="Enter you Email Address">
+                </div>
+              </div><!-- End form group -->
+
+                
+              <div class="form-group">
+                <label for="user-url" class="col-lg-2 control-label">Phone number</label>
+                  
+                  <div>
+              <select>
+              <option value="+234">+234</option>
+                <option value="+901">+901</option>
+              <option value="+233">+233</option>
+              <option value="+441">+441</option> 
+              </select>
+               <input type="tel" name="phone number"><br>
+         </div><br>  
+                <div class="col-lg-10">
+                </div>
+              </div><!-- End form group -->
+
+                <!--          GENDER-->
+        <div class="form-group">
+          <label for="user-url" class="col-lg-2 control-label">Gender</label>
+          <input type="radio" name="gender" value="Male" checked>Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+          <br> 
+        </div>
+                
+<!--          MARITAL STATUS-->
+        <div class="form-group">
+           <label for="user-url" class="col-lg-2 control-label">Marital Status</label>
+          <input type="radio" name="maritalstatus" value="married" checked>Married<br>
+          <input type="radio" name="maritalstatus" value="single">Single<br>
+        </div>
+                
+<!--           STATE OF ORIGIN-->
+        <div class="form-group">
+           <label for="user-url" class="col-lg-2 control-label">State</label>
+          <select name="state of origin">
+              <option value="lagos">Lagos</option>
+              <option value="lagos">Ogun</option>
+                <option value="lagos">Oyo</option>
+              <option value="lagos">Delta</option>
+              <option value="lagos">Akwa Ibom</option>
+          </select>
+          </div>
+          <br>
+             <!-- End form group -->
+                
+              <div class="form-group">
+                <label for="user-message" class="col-lg-2 control-label">Any Message</label>
+                <div class="col-lg-10">
+                  <textarea name="user-message" id="user-message" class="form-control" 
+                  cols="20" rows="10" placeholder="Enter your Message"></textarea>
+                </div>
+              </div><!-- End form group -->
+
+              <div class="form-group">
+                <div class="col-lg-10 col-lg-offset-2">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div><!-- End the row -->  
+          
+          
+<!-- Footer -->
+
+    <footer>
+        <div>
+        <hr>
+        <ul class="list-inline">
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+
+       <p>Vhospital&copy; Copyright @ 2019. All rights reserved.</p>
+
+      </div><!-- end Container-->
+        </footer>
+    </body>
+    </html>
